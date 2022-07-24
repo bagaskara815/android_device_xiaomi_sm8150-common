@@ -233,7 +233,7 @@ service vendor.mdm_launcher /vendor/bin/sh /vendor/bin/init.mdm.sh
     class main
     oneshot
 
-service vendor.thermal-engine /vendor/bin/thermal-engine -c /vendor/etc/${vendor.thermal.config:-thermal-engine.conf}
+service vendor.thermal-engine /vendor/bin/thermal-engine -c /vendor/etc/${vendor.thermal.engine:-thermal-engine.conf}
    class main
    user root
    group root
