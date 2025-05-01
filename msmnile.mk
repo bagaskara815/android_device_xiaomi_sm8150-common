@@ -226,6 +226,9 @@ TARGET_EXCLUDES_AUDIOFX := true
 PRODUCT_PACKAGES += \
     libstagefright_foundation-v33
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/system_ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml
+
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey
