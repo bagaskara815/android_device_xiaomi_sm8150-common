@@ -187,7 +187,6 @@ endif
 # Device-specific settings
 PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer \
-    XiaomiDolby \
     XiaomiParts
 
 # Display
